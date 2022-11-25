@@ -1,5 +1,7 @@
-﻿import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+﻿# Allow Python to find our code library; maybe you have to adapt this line, or the
+#   contents of context.py, to your needs.
+from context import pdnviz
+
 
 from pdnviz import Load, Supply, PowerSpreadsheet
 

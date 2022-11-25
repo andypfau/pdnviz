@@ -1,5 +1,6 @@
-﻿import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+﻿# allow Python to find our code library
+from context import pdnviz
+
 
 from pdnviz import PowerConfig, Load, Supply, DualLoad, LDO, DcDc, PowerGraph, PowerSpreadsheet
 
