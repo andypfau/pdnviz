@@ -8,8 +8,7 @@ What Is PDN Viz?
 ----------------
 
 Normally you would just hack the PDN into a spreadsheet. But then the problems start:
-- Spreadsheets are easy to mess up (sincfile:///home/andy/Code/Github/sparameterviewer/README.md
-e data and formulas are mixed)
+- Spreadsheets are easy to mess up (data and formulas are mixed)
 - Many components are more complex than nominal V and I
 - It is easy to lose focus on a complex network
 
