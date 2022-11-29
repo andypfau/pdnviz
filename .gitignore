@@ -1,3 +1,6 @@
 **/__pycache__
 doc/build/
-samples/output/*
+doc/source/
+doc/Makefile
+doc/*.bat
+samples/output/
