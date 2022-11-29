@@ -14,7 +14,7 @@ Normally you would just hack the PDN into a spreadsheet. But then the problems s
 
 So instead, this tool allows you to enter the PDN via python, which in turn generates the spreadsheet for you, as well as a visual representation. You can define and re-use components, e.g. LDOs.
 
-<img src="./doc/simple_example_spreadsheet.png" height="250" />  <img src="./doc/simple_example_graph.png" height="250" />
+> <img src="./doc/simple_example_spreadsheet.png" height="250" />  <img src="./doc/simple_example_graph.png" height="250" />
 
 
 ### Limitations
