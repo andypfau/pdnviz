@@ -29,4 +29,4 @@ if __name__ == '__main__':
     supply.check()
 
     PowerSpreadsheet(supply).save('./output/multisource.xlsx', view=True)
-    PowerGraph(supply, dissipation=True).save('./output/multisource.pdf', view=True)
+    PowerGraph(supply, dissipation=True).save('./output/multisource.png', view=True)

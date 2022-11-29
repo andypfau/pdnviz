@@ -29,4 +29,5 @@ if __name__ == '__main__':
 
     # Also generate a graph of the network
     # <dissipation=True> means that additional arrows show dissipated heat of each component.
-    PowerGraph(battery, dissipation=True).save('./output/simple.pdf', view=True)
+    # Note that we could have used a different format as well, e.g. PDF
+    PowerGraph(battery, dissipation=True).save('./output/simple.png', view=True)

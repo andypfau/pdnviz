@@ -68,14 +68,14 @@ class PowerGraph:
             
             with parent.subgraph(name=self._component_clusters[component]) as component_cluster:
                 
-                component_cluster.attr(shape='box', style='rounded')
+                component_cluster.attr(shape='box', style='rounded,bold,filled', fillcolor='LightSteelBlue')
                 component_cluster.attr(label=component.name)
 
                 for input in component._inputs:
-                    component_cluster.attr('node', shape='box')
+                    component_cluster.attr('node', shape='box', style='filled', fillcolor='BurlyWood')
                     component_cluster.node(self._input_nodes[input], label=input.name)
                 for output in component._outputs:
-                    component_cluster.attr('node', shape='cylinder')
+                    component_cluster.attr('node', shape='box', style='filled', fillcolor='DarkOrange')
                     component_cluster.node(self._output_nodes[output], label=output.name)
         
                 if self.dissipation and component.p_diss_calc > 0:

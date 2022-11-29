@@ -87,4 +87,4 @@ if __name__ == '__main__':
     PowerSpreadsheet(pdn, grouped=True).save('./output/advanced_grouped.xlsx', view=True)
     
     # Generate a graph with groups
-    PowerGraph(pdn, grouped=True, dissipation=False).save('./output/advanced.pdf', view=True)
+    PowerGraph(pdn, grouped=True, dissipation=False).save('./output/advanced.png', view=True)
