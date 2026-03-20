@@ -32,9 +32,9 @@ If your problem is just varying load conditions, this tool might still help you 
 Dependencies
 ------------
 
-- Tested with Python 3.11
+- Tested with Python 3.14
     - Should work with 3.7 or newer (not tested)
-- Packets: `scipy, graphviz, openpyxl`
+- Packets: `scipy graphviz openpyxl`; you can use the `Pipfile` with [Pipenv](https://pipenv.pypa.io/en/latest/).
 
 
 How To Get Started
